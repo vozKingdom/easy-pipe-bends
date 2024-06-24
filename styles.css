@@ -1,3 +1,38 @@
+/* CSS Reset */
+
+*{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap:break-word;
+}
+
+
+/* CSS Reset */
+
+
 h1 {
     color: red;
     text-align: center;
@@ -10,4 +45,8 @@ td, th {
 table {
     border-collapse: collapse;
 }
+
+
+
+
 
